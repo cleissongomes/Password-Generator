@@ -1,2 +1,3 @@
 import './assets/css/style.css';
-import formGeneratePassword from './modules/formGeneratesPassword';
+import formGeneratePassword from './modules/formGeneratePassword';
+formGeneratePassword();
