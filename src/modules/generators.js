@@ -5,7 +5,7 @@ const generateNumber = () => String.fromCharCode(rand(48, 58));
 const symbols = ',.;~^[]{}!@#$*()_+=-';
 const generateSymbols = () => symbols[rand(0, symbols.length)];
 
-function generatePassword(quantity, capitalLetters, lowerCaseLetters, numbers, symbols) {
+export default function generatePassword(quantity, capitalLetters, lowerCaseLetters, numbers, symbols) {
     const arrayPassword = [];
     quantity = Number(quantity);
 
